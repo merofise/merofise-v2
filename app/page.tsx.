@@ -1,0 +1,30 @@
+import React from 'react';
+
+export default function HomePage() {
+  return (
+    <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-6">
+      <h1 className="text-6xl font-bold mb-4 text-blue-500">MEROFISE</h1>
+      <p className="text-xl mb-8 text-slate-300 text-center max-w-2xl">
+        La primera plataforma inmobiliaria 100% automatizada con IA. 
+        Ventas, alquileres y negociación inteligente en un solo lugar.
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="p-6 bg-slate-800 rounded-xl border border-slate-700">
+          <h3 className="text-xl font-bold mb-2">🤖 IA Negociadora</h3>
+          <p className="text-slate-400">Cerramos tratos por ti las 24 horas del día.</p>
+        </div>
+        <div className="p-6 bg-slate-800 rounded-xl border border-slate-700">
+          <h3 className="text-xl font-bold mb-2">🌍 Alcance Global</h3>
+          <p className="text-slate-400">Propiedades verificadas en todo el mundo.</p>
+        </div>
+        <div className="p-6 bg-slate-800 rounded-xl border border-slate-700">
+          <h3 className="text-xl font-bold mb-2">💰 Facturación Pro</h3>
+          <p className="text-slate-400">Gana dinero con informes y suscripciones.</p>
+        </div>
+      </div>
+      <button className="mt-12 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition-all">
+        Próximamente: Lanzamiento Oficial
+      </button>
+    </div>
+  );
+}
